@@ -12,8 +12,8 @@ export class enemy02_mov extends Component {
     private _newPos: Vec3 = new Vec3();
     private _targetPos: Vec3 = new Vec3();
 
-    @property({ type: SkeletalAnimation })
-    anim: SkeletalAnimation = null;
+    // @property({ type: SkeletalAnimation })
+    // anim: SkeletalAnimation = null;
 
     start() {
         

@@ -25,7 +25,7 @@ export class enemy01 extends Component {
                     reject && reject();
                     return;
                 }
-                console.log("model load succeed");
+                // console.log("model load succeed");
                 resolve && resolve(prefab);
             })
         })

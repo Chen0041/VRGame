@@ -4342,23 +4342,6 @@
     "fileId": "87cYeAcfdKPpb4o6O+lGEK"
   },
   {
-    "__type__": "1ee98ilyDRKvIHmSgzfaLrR",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 1
-    },
-    "_enabled": true,
-    "__prefab": {
-      "__id__": 160
-    },
-    "_id": ""
-  },
-  {
-    "__type__": "cc.CompPrefabInfo",
-    "fileId": "6eGCs37QRMYJXhqUnQCirb"
-  },
-  {
     "__type__": "cc.MeshCollider",
     "_name": "",
     "_objFlags": 0,
@@ -4367,7 +4350,7 @@
     },
     "_enabled": true,
     "__prefab": {
-      "__id__": 162
+      "__id__": 160
     },
     "_material": null,
     "_isTrigger": false,
@@ -4394,7 +4377,7 @@
     },
     "_enabled": true,
     "__prefab": {
-      "__id__": 164
+      "__id__": 162
     },
     "_material": null,
     "_isTrigger": false,
@@ -4425,7 +4408,7 @@
     },
     "_enabled": true,
     "__prefab": {
-      "__id__": 166
+      "__id__": 164
     },
     "_material": null,
     "_isTrigger": false,
@@ -4442,6 +4425,23 @@
   {
     "__type__": "cc.CompPrefabInfo",
     "fileId": "d9ETqa8nNBW4WG5tjLUN3s"
+  },
+  {
+    "__type__": "da8322p03pH27szYgILQ6Ct",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "__prefab": {
+      "__id__": 166
+    },
+    "_id": ""
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "69BUIi16hHfJfS2mav25sC"
   },
   {
     "__type__": "cc.PrefabInfo",

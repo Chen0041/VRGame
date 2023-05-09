@@ -50,13 +50,13 @@ export class EnemyHealth extends Component {
                 this.node.getChildByName("HealthBar").active = false;
                 setTimeout(() => {
                     this.node.destroy();
-                }, 700);
+                }, 500);
             } else if (this.node.name == "Enemy02") {
                 this.node.getComponent(MeshCollider).enabled = false;
                 this.node.getChildByName("HealthBar").active = false;
                 setTimeout(() => {
-                    this.node.getParent().getParent().destroy();
-                }, 700);
+                    this.node.destroy();
+                }, 500);
             }
         }
     }
