@@ -66,4 +66,7 @@ export class BulletController extends Component {
         this.node.destroy();
     }
 }
+
+
+
 

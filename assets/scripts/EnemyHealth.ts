@@ -1,4 +1,4 @@
-﻿import { _decorator, Component, CCInteger, Sprite, SkeletalAnimation, Label, find, SphereCollider, MeshCollider, AudioSource } from 'cc';
+﻿import { _decorator, Component, CCInteger, Sprite, SkeletalAnimation, Label, find, SphereCollider, MeshCollider, AudioSource, BoxCollider } from 'cc';
 const { ccclass, property } = _decorator;
 @ccclass('EnemyHealth')
 export class EnemyHealth extends Component {
@@ -47,17 +47,13 @@ export class EnemyHealth extends Component {
             this.anim.play('die');
             if (this.node.name == "Enemy01") {
                 this.node.getComponent(SphereCollider).enabled = false;
-                this.node.getChildByName("HealthBar").active = false;
-                setTimeout(() => {
-                    this.node.destroy();
-                }, 500);
             } else if (this.node.name == "Enemy02") {
-                this.node.getComponent(MeshCollider).enabled = false;
-                this.node.getChildByName("HealthBar").active = false;
-                setTimeout(() => {
-                    this.node.destroy();
-                }, 500);
+                this.node.getComponent(BoxCollider).enabled = false;
             }
+            this.node.getChildByName("HealthBar").active = false;
+            setTimeout(() => {
+                this.node.destroy();
+            }, 700);
         }
     }
 }

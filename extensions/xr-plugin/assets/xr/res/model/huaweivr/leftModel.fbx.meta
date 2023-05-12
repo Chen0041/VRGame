@@ -98,23 +98,6 @@
       ],
       "subMetas": {}
     },
-    "adacb": {
-      "importer": "gltf-embeded-image",
-      "uuid": "2b5a0c85-f38e-4774-bb8d-efa22911206e@adacb",
-      "displayName": "",
-      "id": "adacb",
-      "name": "file2.image",
-      "userData": {
-        "gltfIndex": 0
-      },
-      "ver": "1.0.3",
-      "imported": true,
-      "files": [
-        ".json",
-        ".png"
-      ],
-      "subMetas": {}
-    },
     "e873a": {
       "importer": "texture",
       "uuid": "2b5a0c85-f38e-4774-bb8d-efa22911206e@e873a",
@@ -128,8 +111,8 @@
         "magfilter": "linear",
         "mipfilter": "none",
         "anisotropy": 0,
-        "isUuid": true,
-        "imageUuidOrDatabaseUri": "2b5a0c85-f38e-4774-bb8d-efa22911206e@adacb"
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://xr-plugin/xr/res/model/huaweivr/left_handle.jpg"
       },
       "ver": "1.0.22",
       "imported": true,
@@ -191,7 +174,7 @@
     "imageMetas": [
       {
         "name": "file2",
-        "uri": "2b5a0c85-f38e-4774-bb8d-efa22911206e@adacb"
+        "uri": "db://xr-plugin/xr/res/model/huaweivr/left_handle.jpg"
       }
     ],
     "legacyFbxImporter": false,

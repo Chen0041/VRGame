@@ -1,4 +1,4 @@
-import { _decorator, Component, Node, CCInteger, ICollisionEvent, find, MeshCollider, SphereCollider } from 'cc';
+import { _decorator, Component, Node, CCInteger, ICollisionEvent, find, MeshCollider, SphereCollider, BoxCollider } from 'cc';
 const { ccclass, property } = _decorator;
 import { PlayerHealth } from './PlayerHealth';
 
@@ -18,7 +18,7 @@ export class HitPlayer extends Component {
             collider = this.node.getComponent(SphereCollider);
         }
         else if (this.node.name == "Enemy02") {
-            collider = this.node.getComponent(MeshCollider);
+            collider = this.node.getComponent(BoxCollider);
         }
         collider.on('onCollisionEnter', this.onCollisionEnter, this);
     }
@@ -33,7 +33,7 @@ export class HitPlayer extends Component {
             collider = this.node.getComponent(SphereCollider);
         }
         else if (this.node.name == "Enemy02") {
-            collider = this.node.getComponent(MeshCollider);
+            collider = this.node.getComponent(BoxCollider);
         }
         collider.off('onCollisionEnter', this.onCollisionEnter, this);
     }

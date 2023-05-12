@@ -27,7 +27,7 @@
         "_value": true
       },
       "xr": {
-        "_value": false
+        "_value": true
       },
       "ui": {
         "_value": true
@@ -148,7 +148,8 @@
       "ui",
       "video",
       "websocket",
-      "webview"
+      "webview",
+      "xr"
     ],
     "flags": {},
     "noDeprecatedFeatures": {
