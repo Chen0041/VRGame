@@ -15,18 +15,20 @@ export class Main extends Component {
     @property({ type: AudioSource })
     windowAudioSource: AudioSource = null;
 
-    playBtn: Node = null;
+    playShootGameBtn: Node = null;
+    playFruitGameBtn: Node = null;
     documentBtn: Node = null;
     documentView: Node = null;
     soundFlag :number = 1;
 
     start() {
         this.backgroundAudioSource.play();
-        this.playBtn = this.node.getChildByName('StartShootGame');
+        this.playShootGameBtn = this.node.getChildByName('StartShootGame');
+        this.playFruitGameBtn = this.node.getChildByName('StartFruitGame');
         this.documentBtn = this.node.getChildByName('LookScores');
         this.documentView = this.node.getChildByName('ScoresDocument');
         this.documentView.active = false;
-        const jsonStringGet = localStorage.getItem('Scores');
+        const jsonStringGet = localStorage.getItem('ShootScores');
         const objGet = JSON.parse(jsonStringGet);
         for (const key in objGet) {
             if (objGet.hasOwnProperty(key)) {
@@ -41,18 +43,25 @@ export class Main extends Component {
 
     onBtnDocument() {
         this.windowAudioSource.play();
-        this.playBtn.active = false;
+        this.playShootGameBtn.active = false;
+        this.playFruitGameBtn.active = false;
         this.documentBtn.active = false;
         this.documentView.active = true;
     }
-    onBtnPlay() {
+    onShootBtnPlay() {
         this.buttonAudioSource.play();
-        director.loadScene('Progress');
+        director.loadScene('ShootProgress');
+    }
+
+    onFruitBtnPlay() {
+        this.buttonAudioSource.play();
+        director.loadScene('FruitProgress');
     }
 
     onBtnClose() {
         this.documentView.active = false;
-        this.playBtn.active = true;
+        this.playShootGameBtn.active = true;
+        this.playFruitGameBtn.active = true;
         this.documentBtn.active = true;
     }
 

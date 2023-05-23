@@ -37,7 +37,7 @@ export class Timer extends Component {
             }
         }
         if (this.timer == 0) {
-            const jsonStringGet = localStorage.getItem('Scores');
+            const jsonStringGet = localStorage.getItem('ShootScores');
             let scoreMap = new Map<string, number>();
             const now = new Date();
             let currentTime = now.getFullYear() + "-" + ((now.getMonth() + 1) < 10 ? ("0" + (now.getMonth() + 1)) : (now.getMonth() + 1)) +
@@ -59,7 +59,7 @@ export class Timer extends Component {
                 objSet[key] = value;
             });
             const jsonStringSet = JSON.stringify(objSet);
-            localStorage.setItem('Scores', jsonStringSet);
+            localStorage.setItem('ShootScores', jsonStringSet);
             director.loadScene('TimeOver');
             this.timer = 1;
         }

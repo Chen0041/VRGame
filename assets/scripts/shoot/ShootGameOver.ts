@@ -15,7 +15,7 @@ export class GameOver extends Component {
     start() {
         this.gameOverAudioSource.play();
         game.canvas.style.cursor = 'auto';
-        const jsonStringGet = localStorage.getItem('Scores');
+        const jsonStringGet = localStorage.getItem('ShootScores');
         let scoreMap = new Map<string, number>();
         const objGet = JSON.parse(jsonStringGet);
         for (const key in objGet) {
@@ -33,7 +33,7 @@ export class GameOver extends Component {
 
     onBtnReplay() {
         this.buttonAudioSource.play();
-        director.loadScene('Progress');
+        director.loadScene('ShootProgress');
     }
 
     onBtnQuit() {

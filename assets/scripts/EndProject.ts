@@ -13,7 +13,8 @@ export class EndProject extends Component {
     }
 
     onGameEnd() {
-        localStorage.removeItem('Scores');
+        localStorage.removeItem('ShootScores');
+        localStorage.removeItem('FruitScores');
         game.off(Game.EVENT_HIDE, this.onGameEnd, this);
     }
 }
