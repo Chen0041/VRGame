@@ -6,6 +6,9 @@ export class Main extends Component {
     @property(Label)
     shootGameItems: Label = null;
 
+    @property(Label)
+    fruitGameItems: Label = null;
+
     @property({ type: AudioSource })
     backgroundAudioSource: AudioSource = null;
 
@@ -33,6 +36,14 @@ export class Main extends Component {
         for (const key in objGet) {
             if (objGet.hasOwnProperty(key)) {
                 this.shootGameItems.string += (key + "         " + objGet[key]+"\n");
+            }
+        }
+
+        const jsonStringGet1 = localStorage.getItem('FruitScores');
+        const objGet1 = JSON.parse(jsonStringGet1);
+        for (const key in objGet1) {
+            if (objGet1.hasOwnProperty(key)) {
+                this.fruitGameItems.string += (key + "         " + objGet1[key] + "\n");
             }
         }
     }

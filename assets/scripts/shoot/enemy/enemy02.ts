@@ -1,5 +1,5 @@
 import { _decorator, Component, Prefab, Node, SpriteComponent, SpriteFrame, ImageAsset, resources, error, Texture2D, instantiate, isValid, find, TextAsset, JsonAsset, Vec3 } from "cc";
-import { poolManager } from "./poolManager";
+import { poolManager } from "../../poolManager";
 const { ccclass, property } = _decorator;
 
 @ccclass('enemy02')

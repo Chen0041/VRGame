@@ -1,8 +1,8 @@
 import { _decorator, Component, director, ProgressBar, find, Label } from 'cc';
 const { ccclass, property } = _decorator;
 
-@ccclass('LoadProgress')
-export class LoadProgress extends Component {
+@ccclass('ShootLoadProgress')
+export class ShootLoadProgress extends Component {
 
     start() {
         director.preloadScene('ShootGame', function (completedCount, totalCount, item) {

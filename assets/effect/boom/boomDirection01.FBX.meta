@@ -1,0 +1,65 @@
+{
+  "ver": "2.3.3",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "abaa7c70-6652-432f-8c00-cff75b7fcfd7",
+  "files": [],
+  "subMetas": {
+    "8b7f2": {
+      "importer": "gltf-mesh",
+      "uuid": "abaa7c70-6652-432f-8c00-cff75b7fcfd7@8b7f2",
+      "displayName": "",
+      "id": "8b7f2",
+      "name": "boomLight02.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ed323": {
+      "importer": "gltf-scene",
+      "uuid": "abaa7c70-6652-432f-8c00-cff75b7fcfd7@ed323",
+      "displayName": "",
+      "id": "ed323",
+      "name": "boomDirection01.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": true,
+    "dumpMaterials": true,
+    "materialDumpDir": "db://assets/effect/boom",
+    "redirect": "abaa7c70-6652-432f-8c00-cff75b7fcfd7@ed323",
+    "assetFinder": {
+      "meshes": [
+        "abaa7c70-6652-432f-8c00-cff75b7fcfd7@8b7f2"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "3624f473-85df-40fc-8bce-80e6bfa3338d"
+      ],
+      "scenes": [
+        "abaa7c70-6652-432f-8c00-cff75b7fcfd7@ed323"
+      ]
+    },
+    "fbx": {
+      "smartMaterialEnabled": false
+    }
+  }
+}

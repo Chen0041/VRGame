@@ -1,8 +1,8 @@
 import { _decorator, Component, director, game, Label, AudioSource } from 'cc';
 const { ccclass, property } = _decorator;
 
-@ccclass('GameOver')
-export class GameOver extends Component {
+@ccclass('ShootGameOver')
+export class ShootGameOver extends Component {
     @property(Label)
     scoreLabel: Label = null;
 

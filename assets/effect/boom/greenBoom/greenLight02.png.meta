@@ -1,0 +1,46 @@
+{
+  "ver": "1.0.25",
+  "importer": "image",
+  "imported": true,
+  "uuid": "e2adeb0b-8ae1-4650-8497-144694ef3e45",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "e2adeb0b-8ae1-4650-8497-144694ef3e45@6c48a",
+      "displayName": "greenLight02",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "e2adeb0b-8ae1-4650-8497-144694ef3e45",
+        "visible": true
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "hasAlpha": true,
+    "type": "texture",
+    "redirect": "e2adeb0b-8ae1-4650-8497-144694ef3e45@6c48a",
+    "compressSettings": {
+      "useCompressTexture": true,
+      "presetId": "66K/DsVlhKRaE9zg5nBgd6"
+    },
+    "fixAlphaTransparencyArtifacts": false
+  }
+}

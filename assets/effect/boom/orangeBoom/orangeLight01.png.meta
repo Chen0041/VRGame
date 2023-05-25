@@ -1,0 +1,46 @@
+{
+  "ver": "1.0.25",
+  "importer": "image",
+  "imported": true,
+  "uuid": "ba7367cf-7d5f-4f08-9852-80ab7d67e566",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "ba7367cf-7d5f-4f08-9852-80ab7d67e566@6c48a",
+      "displayName": "orangeLight01",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "ba7367cf-7d5f-4f08-9852-80ab7d67e566",
+        "visible": true
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "hasAlpha": true,
+    "type": "texture",
+    "redirect": "ba7367cf-7d5f-4f08-9852-80ab7d67e566@6c48a",
+    "compressSettings": {
+      "useCompressTexture": true,
+      "presetId": "66K/DsVlhKRaE9zg5nBgd6"
+    },
+    "fixAlphaTransparencyArtifacts": false
+  }
+}

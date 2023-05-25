@@ -379,7 +379,7 @@
     "_priority": 1073741824,
     "_fov": 45,
     "_fovAxis": 0,
-    "_orthoHeight": 430,
+    "_orthoHeight": 323.00469483568077,
     "_near": 1,
     "_far": 2000,
     "_color": {
@@ -1173,9 +1173,9 @@
     "_dstBlendFactor": 4,
     "_color": {
       "__type__": "cc.Color",
-      "r": 26,
-      "g": 63,
-      "b": 12,
+      "r": 255,
+      "g": 255,
+      "b": 255,
       "a": 255
     },
     "_spriteFrame": {
@@ -1720,9 +1720,9 @@
     "_dstBlendFactor": 4,
     "_color": {
       "__type__": "cc.Color",
-      "r": 224,
-      "g": 230,
-      "b": 193,
+      "r": 193,
+      "g": 229,
+      "b": 230,
       "a": 255
     },
     "_spriteFrame": {
@@ -2109,9 +2109,9 @@
     "_dstBlendFactor": 4,
     "_color": {
       "__type__": "cc.Color",
-      "r": 26,
-      "g": 63,
-      "b": 12,
+      "r": 255,
+      "g": 255,
+      "b": 255,
       "a": 255
     },
     "_spriteFrame": {
@@ -2656,9 +2656,9 @@
     "_dstBlendFactor": 4,
     "_color": {
       "__type__": "cc.Color",
-      "r": 167,
-      "g": 219,
-      "b": 75,
+      "r": 235,
+      "g": 200,
+      "b": 233,
       "a": 255
     },
     "_spriteFrame": {
@@ -3183,7 +3183,7 @@
       "a": 255
     },
     "_spriteFrame": {
-      "__uuid__": "0522f446-695c-4b4f-bd91-3058b59a0835@f9941",
+      "__uuid__": "2d5cd94c-8d23-499d-b327-b75f7a565a69@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_type": 1,
@@ -4290,6 +4290,9 @@
     "shootGameItems": {
       "__id__": 42
     },
+    "fruitGameItems": {
+      "__id__": 69
+    },
     "backgroundAudioSource": {
       "__id__": 122
     },
@@ -4532,7 +4535,7 @@
     "_enabled": true,
     "__prefab": null,
     "_clip": {
-      "__uuid__": "2a02ded8-d2f2-4f64-92e0-8472102d8f22",
+      "__uuid__": "7889528f-f8c8-4781-8b5d-5e75b39c5b13",
       "__expectedType__": "cc.AudioClip"
     },
     "_loop": false,

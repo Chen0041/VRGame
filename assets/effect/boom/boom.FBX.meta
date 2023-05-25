@@ -1,0 +1,65 @@
+{
+  "ver": "2.3.3",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "f6a1e639-d541-403a-9ff9-31278834bb61",
+  "files": [],
+  "subMetas": {
+    "9df44": {
+      "importer": "gltf-mesh",
+      "uuid": "f6a1e639-d541-403a-9ff9-31278834bb61@9df44",
+      "displayName": "",
+      "id": "9df44",
+      "name": "boom.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "afb31": {
+      "importer": "gltf-scene",
+      "uuid": "f6a1e639-d541-403a-9ff9-31278834bb61@afb31",
+      "displayName": "",
+      "id": "afb31",
+      "name": "boom.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": true,
+    "dumpMaterials": true,
+    "materialDumpDir": "db://assets/effect/boom",
+    "redirect": "f6a1e639-d541-403a-9ff9-31278834bb61@afb31",
+    "assetFinder": {
+      "meshes": [
+        "f6a1e639-d541-403a-9ff9-31278834bb61@9df44"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "369de28d-e5c1-4a8c-88a2-962a31275248"
+      ],
+      "scenes": [
+        "f6a1e639-d541-403a-9ff9-31278834bb61@afb31"
+      ]
+    },
+    "fbx": {
+      "smartMaterialEnabled": false
+    }
+  }
+}
