@@ -1,4 +1,4 @@
-import { director, _decorator, Component, Vec3, Node, AudioSource, SkeletalAnimation } from 'cc';
+import { director, _decorator, Component, Vec3, Node, AudioSource, SkeletalAnimation, find } from 'cc';
 const { ccclass, property } = _decorator;
 
 
@@ -6,7 +6,7 @@ const { ccclass, property } = _decorator;
 export class enemy02_mov extends Component {
 
     private scene: Node = director.getScene();
-    private player: Node | null = this.scene.getChildByName("Player");
+    private player: Node = null;
     private speed: number = 0.2;
     private _curPos: Vec3 = new Vec3();
     private _newPos: Vec3 = new Vec3();
@@ -16,7 +16,7 @@ export class enemy02_mov extends Component {
     // anim: SkeletalAnimation = null;
 
     start() {
-        
+        this.player = find("Player");
     }
 
     update(deltaTime: number) {
