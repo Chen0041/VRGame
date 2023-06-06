@@ -35,3 +35,4 @@ export class enemy01_mov extends Component {
         }
     }
 }
+
