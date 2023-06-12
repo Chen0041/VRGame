@@ -382,7 +382,7 @@
     "_priority": 1073741824,
     "_fov": 45,
     "_fovAxis": 0,
-    "_orthoHeight": 320,
+    "_orthoHeight": 378.7155963302752,
     "_near": 1,
     "_far": 2000,
     "_color": {
@@ -414,7 +414,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "Sprite",
+    "_name": "BackGround",
     "_objFlags": 0,
     "_parent": {
       "__id__": 7
@@ -445,8 +445,8 @@
     },
     "_lscale": {
       "__type__": "cc.Vec3",
-      "x": 2.202,
-      "y": 1.96,
+      "x": 2.22,
+      "y": 1.97,
       "z": 1
     },
     "_mobility": 0,

@@ -480,9 +480,9 @@
     },
     "_size": {
       "__type__": "cc.Vec3",
-      "x": 0.5,
-      "y": 0.5,
-      "z": 0.5
+      "x": 3,
+      "y": 3,
+      "z": 3
     },
     "_id": "46NvYujQpCO5xEq3RL+H2T"
   },
@@ -1388,7 +1388,7 @@
     "_priority": 1073741824,
     "_fov": 45,
     "_fovAxis": 0,
-    "_orthoHeight": 323.00469483568077,
+    "_orthoHeight": 378.7155963302752,
     "_near": 1,
     "_far": 2000,
     "_color": {
